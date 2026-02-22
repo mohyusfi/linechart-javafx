@@ -10,7 +10,7 @@
     <center>
         <LineChart fx:id="lineChart" title="Pertumbuhan Penduduk Indonesia (2014-2023)">
             <xAxis>
-                <NumberAxis label="Tahun" autoRanging="false" forceZeroInRange="false" lowerBound="2014.0" upperBound="2026.0" tickUnit="1.0"/>
+                <NumberAxis label="Tahun" autoRanging="false" forceZeroInRange="false" lowerBound="2013.0" upperBound="2026.0" tickUnit="1.0"/>
             </xAxis>
             <yAxis>
                 <NumberAxis label="Populasi (Juta Jiwa)"/>
