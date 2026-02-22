@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ChartController">
+    <center>
+        <LineChart fx:id="lineChart" title="Pertumbuhan Penduduk Indonesia (2014-2023)">
+            <xAxis>
+                <NumberAxis label="Tahun" autoRanging="false" forceZeroInRange="false" lowerBound="2014.0" upperBound="2026.0" tickUnit="1.0"/>
+            </xAxis>
+            <yAxis>
+                <NumberAxis label="Populasi (Juta Jiwa)"/>
+            </yAxis>
+        </LineChart>
+    </center>
+</BorderPane>
